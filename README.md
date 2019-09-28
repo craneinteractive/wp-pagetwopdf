@@ -1,4 +1,4 @@
-# WP-Page2Pdf
+# wp-page2pdf
 
 A learning exercise in WordPress plugin development. Allows pages and posts to be converted to PDF with a click of a button.
 
