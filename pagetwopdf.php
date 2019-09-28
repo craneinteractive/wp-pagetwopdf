@@ -5,6 +5,7 @@
  * Version: 1.0
  * Author: Crane Interactive Ltd
  * Author URI: https://www.craneinteractive.co.uk
+ * License: GPLv2 or later
  */
 use Dompdf\Dompdf;
 
