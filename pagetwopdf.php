@@ -19,11 +19,8 @@ class PageTwoPdf
 {
     public function __construct()
     {
-        add_action('admin_enqueue_scripts', array($this, 'enqueueAdmin'));
-        add_action('wp_enqueue_scripts', array($this, 'enqueue'));
         add_action('admin_menu', array(new PageTwoPdfAdminPage, 'admin_menu'));
         add_action('wp_ajax_nopriv_convert_html', array($this, 'convert_html'));
-        add_action('wp_loaded', array($this, 'register_scripts'));
         add_action('admin_post_pagetwopdf_topdf', array($this, 'topdf'));
         add_action('admin_post_nopriv_pagetwopdf_topdf', array($this, 'topdf'));
 
